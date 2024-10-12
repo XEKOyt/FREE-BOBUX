@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Troll font */
+  background-color: #ffcc00; /* Bright yellow background */
+  color: #000; /* Black text */
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+}
+
+.ad-banner {
+  background-color: #00ff00; /* Bright green for ads */
+  padding: 20px;
+  font-size: 2rem; /* Larger font size */
+  font-weight: bold;
+  color: #000; /* Black text */
+  animation: bounce 1s infinite; /* Bouncing animation */
+}
+
+h1 {
+  font-size: 2.5rem; /* Larger heading size */
+  margin: 20px 0;
+  color: #ff0000; /* Red heading */
+}
+
+p {
+  font-size: 1.5rem; /* Larger paragraph font size */
+  margin: 20px 0;
+}
+
+button {
+  padding: 15px 30px; /* Standard button padding */
+  font-size: 1.5rem; /* Larger button font size */
+  background: #0000ff; /* Bright blue background */
+  color: white;
+  border: 2px solid #ff0000; /* Red border */
+  cursor: pointer;
+  display: inline-block; /* Block button */
+  transition: transform 0.2s; /* Smooth transformation */
+}
+
+button:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.useless-things {
+  font-size: 1.5rem; /* Larger font for useless info */
+  color: #000; /* Black text */
+  margin: 30px 0; /* Margin for spacing */
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 0.8rem; /* Smaller footer font size */
+  color: gray; /* Gray text for footer */
+}
+
+/* Bouncing animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-30px);
+  }
+  60% {
+      transform: translateY(-15px);
+  }
+}
